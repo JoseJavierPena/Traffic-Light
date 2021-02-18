@@ -94,7 +94,7 @@ public class Manager : MonoBehaviour
         TwoFour = false;
     }
 
-    void SemaphoreGreen1_3()
+    void SemaphoreYellow1_3()
     {
         S1[0].SetActive(false);
         S1[1].SetActive(true);
@@ -138,7 +138,7 @@ public class Manager : MonoBehaviour
         TwoFour = true;
     }
 
-    void SemaphoreGreen2_4()
+    void SemaphoreYellow2_4()
     {
         S1[0].SetActive(false);
         S1[1].SetActive(false);

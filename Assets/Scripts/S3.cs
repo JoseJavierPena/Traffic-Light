@@ -25,7 +25,7 @@ public class S3 : MonoBehaviour
         }
     }
 
-    private void OnTriggerEnter2d(Collider2d collision)
+    private void OnTriggerEnter2d(Collider2D collision)
     {
         if (collision.tag == "controlS1")
         {
